@@ -1,0 +1,20 @@
+code,nom,residence_principale,periode_debut,periode_fin,commercial,regle_150m,note,verifie_le
+AC,Ahuntsic-Cartierville,saisonniere,06-10,09-10,interdite,non mentionnée,,2026-10-17
+ANJ,Anjou,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié. Un projet d'interdiction de la résidence principale a été étudié en 2023 (dossier 1238770010); la Ville ne l'affiche pas comme en vigueur.,2026-10-17
+CDNNDG,Côte-des-Neiges–Notre-Dame-de-Grâce,saisonniere,06-10,09-10,zones_permises,non mentionnée,,2026-10-17
+LCH,Lachine,interdite,,,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+LSL,LaSalle,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+PMR,Le Plateau-Mont-Royal,saisonniere,06-10,09-10,zones_permises,non mentionnée,,2026-10-17
+SO,Le Sud-Ouest,saisonniere,06-10,09-10,zones_permises,oui,,2026-10-17
+IBZSGV,L'Île-Bizard–Sainte-Geneviève,saisonniere,06-10,09-10,zones_permises,non mentionnée,"Certains secteurs des rues Bord-du-Lac, Monk et Carré Grilli; limites non publiées.",2026-10-17
+MHM,Mercier–Hochelaga-Maisonneuve,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+MTN,Montréal-Nord,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+OUT,Outremont,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+PFDROX,Pierrefonds-Roxboro,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+RDPPAT,Rivière-des-Prairies–Pointe-aux-Trembles,saisonniere,06-10,09-10,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+RPP,Rosemont–La Petite-Patrie,saisonniere,06-10,09-10,interdite,non mentionnée,Hors résidence principale interdit partout. Gîtes permis seulement sur la Plaza Saint-Hubert.,2026-10-17
+SLR,Saint-Laurent,interdite,,,non_confirme,non mentionnée,Aucun secteur autorisé publié.,2026-10-17
+SLN,Saint-Léonard,interdite,,,interdite,non mentionnée,,2026-10-17
+VRD,Verdun,saisonniere,06-10,09-10,interdite,non mentionnée,"Gîtes interdits aussi, sauf ceux autorisés avant le 3 juin 2025 avec certificat valide.",2026-10-17
+VM,Ville-Marie,saisonniere,06-10,09-10,zones_permises,oui,,2026-10-17
+VSMPE,Villeray–Saint-Michel–Parc-Extension,saisonniere,06-10,09-10,zones_permises,non mentionnée,Rues Saint-Hubert et Jean-Talon Est seulement; limites non publiées.,2026-10-17
