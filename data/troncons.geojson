@@ -1,0 +1,531 @@
+{
+ "type": "FeatureCollection",
+ "name": "troncons_str_montreal",
+ "metadata": {
+  "version": "2026-10-17",
+  "verifie_le": "2026-10-17",
+  "avertissement": "Compilation d'information publique, pas un avis juridique. Seule une confirmation écrite du comptoir des permis de l'arrondissement fait foi pour une adresse précise.",
+  "crs": "EPSG:4326 (lon, lat)",
+  "attribution": "© les contributeurs d'OpenStreetMap — https://www.openstreetmap.org/copyright",
+  "licence_geometries": "ODbL 1.0 — https://opendatacommons.org/licenses/odbl/1-0/",
+  "licence_proprietes": "CC BY-NC-SA 4.0 — voir LICENSE-DATA"
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "id": "VM-1",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.5797,
+      45.4938
+     ],
+     [
+      -73.5726,
+      45.5008
+     ],
+     [
+      -73.564,
+      45.509
+     ],
+     [
+      -73.5563,
+      45.5181
+     ]
+    ]
+   },
+   "properties": {
+    "id": "VM-1",
+    "arrondissement": "VM",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Sainte-Catherine",
+    "de": "rue Saint-Mathieu",
+    "a": "rue Atateken (ex-Amherst)",
+    "cotes": "non précisé",
+    "secteur": "M.9",
+    "regle_150m": true,
+    "geometrie_statut": "approximative",
+    "sources": [
+     "mtl-commercial",
+     "mtl-vm"
+    ],
+    "arrondissement_nom": "Ville-Marie",
+    "limites": "entre rue Saint-Mathieu et rue Atateken (ex-Amherst)"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PMR-1",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.5715,
+      45.5137
+     ],
+     [
+      -73.5849,
+      45.5238
+     ]
+    ]
+   },
+   "properties": {
+    "id": "PMR-1",
+    "arrondissement": "PMR",
+    "type": "residence_tourisme_commerciale",
+    "voie": "boulevard Saint-Laurent",
+    "de": "rue Sherbrooke",
+    "a": "avenue du Mont-Royal",
+    "cotes": "façade avec entrée principale face au boulevard",
+    "regle_150m": null,
+    "geometrie_statut": "approximative",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Plateau-Mont-Royal",
+    "limites": "entre rue Sherbrooke et avenue du Mont-Royal"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "PMR-2",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.5683,
+      45.5171
+     ],
+     [
+      -73.5812,
+      45.5268
+     ]
+    ]
+   },
+   "properties": {
+    "id": "PMR-2",
+    "arrondissement": "PMR",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Saint-Denis",
+    "de": "rue Sherbrooke Est",
+    "a": "rue Gilford",
+    "cotes": "façade avec entrée principale face à la rue",
+    "regle_150m": null,
+    "geometrie_statut": "approximative",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Plateau-Mont-Royal",
+    "limites": "entre rue Sherbrooke Est et rue Gilford"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SO-1",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.5856,
+      45.4772
+     ],
+     [
+      -73.5693,
+      45.4834
+     ]
+    ]
+   },
+   "properties": {
+    "id": "SO-1",
+    "arrondissement": "SO",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Notre-Dame Ouest",
+    "de": "rue Rose-de-Lima",
+    "a": "rue Charlevoix",
+    "cotes": "non précisé",
+    "regle_150m": true,
+    "geometrie_statut": "approximative",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Sud-Ouest",
+    "limites": "entre rue Rose-de-Lima et rue Charlevoix"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SO-2",
+   "geometry": null,
+   "properties": {
+    "id": "SO-2",
+    "arrondissement": "SO",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Peel",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "secteur Griffintown, limites non publiées",
+    "regle_150m": true,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Sud-Ouest",
+    "limites": "secteur Griffintown, limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SO-3",
+   "geometry": null,
+   "properties": {
+    "id": "SO-3",
+    "arrondissement": "SO",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Wellington",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "secteur Griffintown, limites non publiées",
+    "regle_150m": true,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Sud-Ouest",
+    "limites": "secteur Griffintown, limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "SO-4",
+   "geometry": null,
+   "properties": {
+    "id": "SO-4",
+    "arrondissement": "SO",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue du Square-Gallery",
+    "de": "rue des Bassins",
+    "a": "canal de Lachine",
+    "regle_150m": true,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Le Sud-Ouest",
+    "limites": "entre rue des Bassins et canal de Lachine"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-1",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-1",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "boulevard Décarie",
+    "de": "rue de la Savane",
+    "a": "chemin de la Côte-Saint-Luc",
+    "cotes": "des deux côtés",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre rue de la Savane et chemin de la Côte-Saint-Luc"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-2",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.624784,
+      45.488623
+     ],
+     [
+      -73.631414,
+      45.48108
+     ]
+    ]
+   },
+   "properties": {
+    "id": "CDN-2",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "chemin Queen-Mary",
+    "de": "avenue Victoria",
+    "a": "avenue Clanranald",
+    "regle_150m": null,
+    "geometrie_statut": "intersections_osm",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre avenue Victoria et avenue Clanranald"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-3",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-3",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "avenue Victoria",
+    "de": "rue Plamondon",
+    "a": "chemin de la Côte-Sainte-Catherine",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre rue Plamondon et chemin de la Côte-Sainte-Catherine"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-4",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-4",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "avenue Van Horne",
+    "de": "avenue Westbury",
+    "a": "rue Lavoie",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre avenue Westbury et rue Lavoie"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-5",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-5",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "chemin de la Côte-des-Neiges",
+    "de": "rue Jean-Talon Ouest",
+    "a": "chemin Queen-Mary",
+    "cotes": "des deux côtés",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre rue Jean-Talon Ouest et chemin Queen-Mary"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-6",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.601408,
+      45.471012
+     ],
+     [
+      -73.605763,
+      45.472944
+     ]
+    ]
+   },
+   "properties": {
+    "id": "CDN-6",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "boulevard Décarie",
+    "de": "boulevard Saint-Jacques",
+    "a": "boulevard De Maisonneuve Ouest",
+    "regle_150m": null,
+    "geometrie_statut": "intersections_osm",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre boulevard Saint-Jacques et boulevard De Maisonneuve Ouest"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-7",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-7",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "avenue Prud'homme",
+    "de": "boulevard Saint-Jacques",
+    "a": "boulevard De Maisonneuve Ouest",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre boulevard Saint-Jacques et boulevard De Maisonneuve Ouest"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "CDN-8",
+   "geometry": null,
+   "properties": {
+    "id": "CDN-8",
+    "arrondissement": "CDNNDG",
+    "type": "residence_tourisme_commerciale",
+    "voie": "boulevard De Maisonneuve Ouest",
+    "de": "boulevard Décarie",
+    "a": "rue Claremont",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+    "limites": "entre boulevard Décarie et rue Claremont"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "VSMPE-1",
+   "geometry": null,
+   "properties": {
+    "id": "VSMPE-1",
+    "arrondissement": "VSMPE",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Saint-Hubert",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "limites non publiées",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Villeray–Saint-Michel–Parc-Extension",
+    "limites": "limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "VSMPE-2",
+   "geometry": null,
+   "properties": {
+    "id": "VSMPE-2",
+    "arrondissement": "VSMPE",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Jean-Talon Est",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "limites non publiées",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Villeray–Saint-Michel–Parc-Extension",
+    "limites": "limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "IBZ-1",
+   "geometry": null,
+   "properties": {
+    "id": "IBZ-1",
+    "arrondissement": "IBZSGV",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Bord-du-Lac",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "certains secteurs, limites non publiées",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "L'Île-Bizard–Sainte-Geneviève",
+    "limites": "certains secteurs, limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "IBZ-2",
+   "geometry": null,
+   "properties": {
+    "id": "IBZ-2",
+    "arrondissement": "IBZSGV",
+    "type": "residence_tourisme_commerciale",
+    "voie": "rue Monk",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "certains secteurs, limites non publiées",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "L'Île-Bizard–Sainte-Geneviève",
+    "limites": "certains secteurs, limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "IBZ-3",
+   "geometry": null,
+   "properties": {
+    "id": "IBZ-3",
+    "arrondissement": "IBZSGV",
+    "type": "residence_tourisme_commerciale",
+    "voie": "Carré Grilli",
+    "de": null,
+    "a": null,
+    "precision_textuelle": "certains secteurs, limites non publiées",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "L'Île-Bizard–Sainte-Geneviève",
+    "limites": "certains secteurs, limites non publiées"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "RPP-G1",
+   "geometry": null,
+   "properties": {
+    "id": "RPP-G1",
+    "arrondissement": "RPP",
+    "type": "gite",
+    "voie": "rue Saint-Hubert",
+    "de": "rue de Bellechasse",
+    "a": "rue Jean-Talon Est",
+    "precision_textuelle": "Plaza Saint-Hubert — gîtes seulement, pas de résidence de tourisme commerciale",
+    "regle_150m": null,
+    "geometrie_statut": "a_generer",
+    "sources": [
+     "mtl-commercial"
+    ],
+    "arrondissement_nom": "Rosemont–La Petite-Patrie",
+    "limites": "entre rue de Bellechasse et rue Jean-Talon Est"
+   }
+  }
+ ]
+}
