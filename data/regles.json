@@ -1,0 +1,800 @@
+{
+  "meta": {
+    "titre": "Hébergement touristique de courte durée (31 jours ou moins) — Ville de Montréal",
+    "version": "2026-10-17",
+    "verifie_le": "2026-10-17",
+    "langue": "fr-CA",
+    "licence": "Règles et textes : CC BY-NC-SA 4.0 (voir LICENSE-DATA). Géométries (coords) : © les contributeurs d'OpenStreetMap, ODbL 1.0, https://www.openstreetmap.org/copyright. Code : Licence logicielle anticapitaliste v1.4 (voir LICENSE).",
+    "avertissement": "Compilation d'information publique, pas un avis juridique. Seule une confirmation écrite du comptoir des permis de l'arrondissement fait foi pour une adresse précise.",
+    "statut_reforme": "La mairesse Soraya Martinez Ferrada a annoncé une réforme (90 jours flexibles par année pour la résidence principale, interdiction de la location commerciale). Non adoptée au 2026-10-17. Le règlement de mars 2025 reste en vigueur.",
+    "champs": {
+      "residence_principale.statut": "interdite | saisonniere",
+      "residence_principale.periode": "MM-JJ inclusif; null si interdite",
+      "commercial.statut": "zones_permises | interdite | non_confirme",
+      "regle_150m": "true = exigée par l'arrondissement; false = non; null = non mentionnée par la Ville",
+      "troncons[].geometrie_statut": "intersections_osm (extrémités calculées depuis OpenStreetMap) | approximative (±100 m, à valider) | a_generer (aucune géométrie fiable pour l'instant)",
+      "troncons[].type": "residence_tourisme_commerciale | gite"
+    },
+    "sources": [
+      {
+        "id": "mtl-commercial",
+        "titre": "Exploiter une résidence de tourisme commerciale",
+        "url": "https://montreal.ca/demarches/exploiter-une-residence-de-tourisme-commerciale",
+        "mise_a_jour_source": "2026-09-10"
+      },
+      {
+        "id": "mtl-sujet",
+        "titre": "Hébergement touristique à court terme",
+        "url": "https://montreal.ca/sujets/hebergement-touristique-court-terme",
+        "mise_a_jour_source": "2025-06-03"
+      },
+      {
+        "id": "mtl-vm",
+        "titre": "Hébergements touristiques dans Ville-Marie",
+        "url": "https://montreal.ca/articles/hebergements-touristiques-dans-ville-marie-12308"
+      },
+      {
+        "id": "mtl-reglement",
+        "titre": "Règlement sur l'hébergement touristique (Ville de Montréal, adopté le 18 mars 2025)",
+        "url": "https://montreal.ca/reglements-municipaux/recherche/67e1848f7ff8934a34b6c8b7"
+      },
+      {
+        "id": "lapresse-2026-04-09",
+        "titre": "La Presse — Louer son logement sur Airbnb ne sera pas possible pour la F1",
+        "url": "https://www.lapresse.ca/actualites/grand-montreal/2026-04-09/hebergement-touristique/louer-son-logement-sur-airbnb-ne-sera-pas-possible-pour-la-f1.php"
+      },
+      {
+        "id": "osm",
+        "titre": "OpenStreetMap — © les contributeurs d'OpenStreetMap (ODbL)",
+        "url": "https://www.openstreetmap.org/copyright"
+      }
+    ]
+  },
+  "arrondissements": [
+    {
+      "code": "AC",
+      "nom": "Ahuntsic-Cartierville",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "interdite",
+        "regle_150m": null
+      },
+      "sources": [
+        "mtl-sujet",
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "ANJ",
+      "nom": "Anjou",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié. Un projet d'interdiction de la résidence principale a été étudié en 2023 (dossier 1238770010); la Ville ne l'affiche pas comme en vigueur."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "CDNNDG",
+      "nom": "Côte-des-Neiges–Notre-Dame-de-Grâce",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": null,
+        "conditions": [
+          "Zones commerciales seulement",
+          "Certificat d'occupation",
+          "Avis de conformité CITQ (frais d'étude 63 $)"
+        ]
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "LCH",
+      "nom": "Lachine",
+      "residence_principale": {
+        "statut": "interdite",
+        "periode": null
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "LSL",
+      "nom": "LaSalle",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "PMR",
+      "nom": "Le Plateau-Mont-Royal",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": null,
+        "conditions": [
+          "Secteur commercial seulement",
+          "L'entrée principale doit être sur une façade qui fait face au tronçon",
+          "Permis (certificat) d'occupation"
+        ]
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "SO",
+      "nom": "Le Sud-Ouest",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": true,
+        "conditions": [
+          "Certificat d'autorisation d'usage",
+          "Avis de conformité : 338 $",
+          "Certificat d'occupation : 907 $",
+          "Au moins 150 m entre deux résidences de tourisme"
+        ]
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "IBZSGV",
+      "nom": "L'Île-Bizard–Sainte-Geneviève",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": null,
+        "note": "Certains secteurs des rues Bord-du-Lac, Monk et Carré Grilli; limites non publiées."
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "MHM",
+      "nom": "Mercier–Hochelaga-Maisonneuve",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "MTN",
+      "nom": "Montréal-Nord",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "OUT",
+      "nom": "Outremont",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "PFDROX",
+      "nom": "Pierrefonds-Roxboro",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "RDPPAT",
+      "nom": "Rivière-des-Prairies–Pointe-aux-Trembles",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "RPP",
+      "nom": "Rosemont–La Petite-Patrie",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "interdite",
+        "regle_150m": null,
+        "note": "Hors résidence principale interdit partout. Gîtes permis seulement sur la Plaza Saint-Hubert."
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "SLR",
+      "nom": "Saint-Laurent",
+      "residence_principale": {
+        "statut": "interdite",
+        "periode": null
+      },
+      "commercial": {
+        "statut": "non_confirme",
+        "regle_150m": null,
+        "note": "Aucun secteur autorisé publié."
+      },
+      "sources": [
+        "mtl-sujet"
+      ]
+    },
+    {
+      "code": "SLN",
+      "nom": "Saint-Léonard",
+      "residence_principale": {
+        "statut": "interdite",
+        "periode": null
+      },
+      "commercial": {
+        "statut": "interdite",
+        "regle_150m": null
+      },
+      "sources": [
+        "mtl-sujet",
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "VRD",
+      "nom": "Verdun",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "interdite",
+        "regle_150m": null,
+        "note": "Gîtes interdits aussi, sauf ceux autorisés avant le 3 juin 2025 avec certificat valide."
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "code": "VM",
+      "nom": "Ville-Marie",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": true,
+        "conditions": [
+          "Secteur M.9 seulement",
+          "Usage conditionnel autorisé par le conseil d'arrondissement",
+          "Certificat d'occupation commerciale",
+          "Au moins 150 m entre deux résidences de tourisme"
+        ]
+      },
+      "sources": [
+        "mtl-commercial",
+        "mtl-vm"
+      ]
+    },
+    {
+      "code": "VSMPE",
+      "nom": "Villeray–Saint-Michel–Parc-Extension",
+      "residence_principale": {
+        "statut": "saisonniere",
+        "periode": {
+          "debut": "06-10",
+          "fin": "09-10"
+        }
+      },
+      "commercial": {
+        "statut": "zones_permises",
+        "regle_150m": null,
+        "note": "Rues Saint-Hubert et Jean-Talon Est seulement; limites non publiées."
+      },
+      "sources": [
+        "mtl-commercial"
+      ]
+    }
+  ],
+  "troncons": [
+    {
+      "id": "VM-1",
+      "arrondissement": "VM",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Sainte-Catherine",
+      "de": "rue Saint-Mathieu",
+      "a": "rue Atateken (ex-Amherst)",
+      "cotes": "non précisé",
+      "secteur": "M.9",
+      "regle_150m": true,
+      "geometrie_statut": "approximative",
+      "coords": [
+        [
+          45.4938,
+          -73.5797
+        ],
+        [
+          45.5008,
+          -73.5726
+        ],
+        [
+          45.509,
+          -73.564
+        ],
+        [
+          45.5181,
+          -73.5563
+        ]
+      ],
+      "sources": [
+        "mtl-commercial",
+        "mtl-vm"
+      ]
+    },
+    {
+      "id": "PMR-1",
+      "arrondissement": "PMR",
+      "type": "residence_tourisme_commerciale",
+      "voie": "boulevard Saint-Laurent",
+      "de": "rue Sherbrooke",
+      "a": "avenue du Mont-Royal",
+      "cotes": "façade avec entrée principale face au boulevard",
+      "regle_150m": null,
+      "geometrie_statut": "approximative",
+      "coords": [
+        [
+          45.5137,
+          -73.5715
+        ],
+        [
+          45.5238,
+          -73.5849
+        ]
+      ],
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "PMR-2",
+      "arrondissement": "PMR",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Saint-Denis",
+      "de": "rue Sherbrooke Est",
+      "a": "rue Gilford",
+      "cotes": "façade avec entrée principale face à la rue",
+      "regle_150m": null,
+      "geometrie_statut": "approximative",
+      "coords": [
+        [
+          45.5171,
+          -73.5683
+        ],
+        [
+          45.5268,
+          -73.5812
+        ]
+      ],
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "SO-1",
+      "arrondissement": "SO",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Notre-Dame Ouest",
+      "de": "rue Rose-de-Lima",
+      "a": "rue Charlevoix",
+      "cotes": "non précisé",
+      "regle_150m": true,
+      "geometrie_statut": "approximative",
+      "coords": [
+        [
+          45.4772,
+          -73.5856
+        ],
+        [
+          45.4834,
+          -73.5693
+        ]
+      ],
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "SO-2",
+      "arrondissement": "SO",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Peel",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "secteur Griffintown, limites non publiées",
+      "regle_150m": true,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "SO-3",
+      "arrondissement": "SO",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Wellington",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "secteur Griffintown, limites non publiées",
+      "regle_150m": true,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "SO-4",
+      "arrondissement": "SO",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue du Square-Gallery",
+      "de": "rue des Bassins",
+      "a": "canal de Lachine",
+      "regle_150m": true,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-1",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "boulevard Décarie",
+      "de": "rue de la Savane",
+      "a": "chemin de la Côte-Saint-Luc",
+      "cotes": "des deux côtés",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-2",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "chemin Queen-Mary",
+      "de": "avenue Victoria",
+      "a": "avenue Clanranald",
+      "regle_150m": null,
+      "geometrie_statut": "intersections_osm",
+      "coords": [
+        [
+          45.488623,
+          -73.624784
+        ],
+        [
+          45.48108,
+          -73.631414
+        ]
+      ],
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-3",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "avenue Victoria",
+      "de": "rue Plamondon",
+      "a": "chemin de la Côte-Sainte-Catherine",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-4",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "avenue Van Horne",
+      "de": "avenue Westbury",
+      "a": "rue Lavoie",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-5",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "chemin de la Côte-des-Neiges",
+      "de": "rue Jean-Talon Ouest",
+      "a": "chemin Queen-Mary",
+      "cotes": "des deux côtés",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-6",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "boulevard Décarie",
+      "de": "boulevard Saint-Jacques",
+      "a": "boulevard De Maisonneuve Ouest",
+      "regle_150m": null,
+      "geometrie_statut": "intersections_osm",
+      "coords": [
+        [
+          45.471012,
+          -73.601408
+        ],
+        [
+          45.472944,
+          -73.605763
+        ]
+      ],
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-7",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "avenue Prud'homme",
+      "de": "boulevard Saint-Jacques",
+      "a": "boulevard De Maisonneuve Ouest",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "CDN-8",
+      "arrondissement": "CDNNDG",
+      "type": "residence_tourisme_commerciale",
+      "voie": "boulevard De Maisonneuve Ouest",
+      "de": "boulevard Décarie",
+      "a": "rue Claremont",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "VSMPE-1",
+      "arrondissement": "VSMPE",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Saint-Hubert",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "limites non publiées",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "VSMPE-2",
+      "arrondissement": "VSMPE",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Jean-Talon Est",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "limites non publiées",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "IBZ-1",
+      "arrondissement": "IBZSGV",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Bord-du-Lac",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "certains secteurs, limites non publiées",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "IBZ-2",
+      "arrondissement": "IBZSGV",
+      "type": "residence_tourisme_commerciale",
+      "voie": "rue Monk",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "certains secteurs, limites non publiées",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "IBZ-3",
+      "arrondissement": "IBZSGV",
+      "type": "residence_tourisme_commerciale",
+      "voie": "Carré Grilli",
+      "de": null,
+      "a": null,
+      "precision_textuelle": "certains secteurs, limites non publiées",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    },
+    {
+      "id": "RPP-G1",
+      "arrondissement": "RPP",
+      "type": "gite",
+      "voie": "rue Saint-Hubert",
+      "de": "rue de Bellechasse",
+      "a": "rue Jean-Talon Est",
+      "precision_textuelle": "Plaza Saint-Hubert — gîtes seulement, pas de résidence de tourisme commerciale",
+      "regle_150m": null,
+      "geometrie_statut": "a_generer",
+      "coords": null,
+      "sources": [
+        "mtl-commercial"
+      ]
+    }
+  ]
+}
