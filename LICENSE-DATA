@@ -1,0 +1,25 @@
+Licence des données — Carte STR Montréal
+
+Ce projet utilise deux licences de données, selon la nature de l'information.
+
+== 1. Géométries issues d'OpenStreetMap : ODbL 1.0 ==
+
+Les coordonnées des tronçons (champ coords de data/regles.json, champ geometry de data/troncons.geojson) sont calculées à partir des données OpenStreetMap.
+
+© les contributeurs d'OpenStreetMap — https://www.openstreetmap.org/copyright
+
+Ces géométries, et toute base de données dérivée qui les contient, sont disponibles sous l'Open Database License (ODbL) 1.0 : https://opendatacommons.org/licenses/odbl/1-0/
+Toute réutilisation doit créditer OpenStreetMap et partager les bases de données dérivées sous ODbL.
+
+== 2. Règles, textes et structure : CC BY-NC-SA 4.0 ==
+
+Le reste des fichiers du dossier data/ (règles, statuts, textes des tronçons, sources, dates) et llms.txt sont mis à disposition selon les termes de la licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International (CC BY-NC-SA 4.0).
+
+Texte complet : https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr
+
+En résumé :
+- Attribution : citer « Carte STR Montréal » et la version des données (meta.version).
+- Pas d'utilisation commerciale : aucune utilisation à des fins commerciales, notamment par des entreprises de gestion immobilière ou de location de courte durée.
+- Partage dans les mêmes conditions : toute adaptation doit être diffusée sous la même licence.
+
+Cette licence couvre la compilation, la structure et les textes rédigés pour ce projet. Les règles elles-mêmes proviennent de sources publiques (montreal.ca) : les faits et les textes réglementaires ne sont pas couverts par cette licence et restent accessibles à leur source.
