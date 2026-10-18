@@ -1,0 +1,28 @@
+# Carte STR Montréal
+
+> Règles de location touristique de 31 jours ou moins (type Airbnb) à Montréal : calendrier de la résidence principale pour les 19 arrondissements, et tronçons de rues où la résidence de tourisme commerciale est permise. Compilation de sources publiques, pas un avis juridique. Langue des données : français.
+
+Version des données : voir `meta.version` et `meta.verifie_le` dans data/regles.json. Comparez toujours cette date à la date de mise à jour des sources (`meta.sources[].mise_a_jour_source`) avant de vous fier à une règle : une réforme municipale est annoncée (voir `meta.statut_reforme`).
+
+## Fichiers
+
+- [data/regles.json](data/regles.json): source unique de vérité. `arrondissements[]` (code, nom, residence_principale, commercial) et `troncons[]` (id, arrondissement, voie, de, a, regle_150m, geometrie_statut, coords en [lat, lon]).
+- [data/troncons.geojson](data/troncons.geojson): mêmes tronçons en GeoJSON, coordonnées [lon, lat], EPSG:4326. `geometry` vaut null quand le tracé n'existe pas encore.
+- [data/arrondissements.csv](data/arrondissements.csv): une ligne par arrondissement.
+- [data/troncons.csv](data/troncons.csv): une ligne par tronçon.
+- [index.html](index.html): même contenu en tableaux HTML statiques, plus une copie intégrale du JSON dans `<script id="donnees" type="application/json">`.
+
+## Niveaux de confiance
+
+- `geometrie_statut` = `intersections_osm` : extrémités calculées à partir des intersections OpenStreetMap.
+- `approximative` : tracé manuel, ±100 m. Ne pas utiliser pour trancher une adresse proche d'une extrémité.
+- `a_generer` : aucun tracé; seul le texte est disponible.
+- `commercial.statut` = `non_confirme` : la Ville ne publie aucun secteur autorisé pour cet arrondissement, sans dire explicitement « interdit » dans un passage attribuable.
+
+## Licence
+
+Géométries (coords, geometry) : © les contributeurs d'OpenStreetMap, ODbL 1.0 (https://www.openstreetmap.org/copyright); toute base dérivée doit créditer OpenStreetMap et rester sous ODbL. Règles, textes et structure (data/, llms.txt) : CC BY-NC-SA 4.0, voir LICENSE-DATA, aucune utilisation commerciale. Code (index.html, scripts/) : Licence logicielle anticapitaliste v1.4, voir LICENSE. Les règles elles-mêmes sont des faits publics, accessibles à leur source sur montreal.ca.
+
+## Citation suggérée
+
+« Carte STR Montréal, version AAAA-MM-JJ, compilée à partir de montreal.ca ». Citez aussi la source primaire listée dans `meta.sources`.
