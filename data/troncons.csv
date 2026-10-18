@@ -1,0 +1,22 @@
+id,arrondissement,type,voie,de,a,limites,cotes,regle_150m,geometrie_statut,verifie_le
+VM-1,VM,residence_tourisme_commerciale,rue Sainte-Catherine,rue Saint-Mathieu,rue Atateken (ex-Amherst),entre rue Saint-Mathieu et rue Atateken (ex-Amherst),non précisé,oui,approximative,2026-10-17
+PMR-1,PMR,residence_tourisme_commerciale,boulevard Saint-Laurent,rue Sherbrooke,avenue du Mont-Royal,entre rue Sherbrooke et avenue du Mont-Royal,façade avec entrée principale face au boulevard,non mentionnée,approximative,2026-10-17
+PMR-2,PMR,residence_tourisme_commerciale,rue Saint-Denis,rue Sherbrooke Est,rue Gilford,entre rue Sherbrooke Est et rue Gilford,façade avec entrée principale face à la rue,non mentionnée,approximative,2026-10-17
+SO-1,SO,residence_tourisme_commerciale,rue Notre-Dame Ouest,rue Rose-de-Lima,rue Charlevoix,entre rue Rose-de-Lima et rue Charlevoix,non précisé,oui,approximative,2026-10-17
+SO-2,SO,residence_tourisme_commerciale,rue Peel,,,"secteur Griffintown, limites non publiées",,oui,a_generer,2026-10-17
+SO-3,SO,residence_tourisme_commerciale,rue Wellington,,,"secteur Griffintown, limites non publiées",,oui,a_generer,2026-10-17
+SO-4,SO,residence_tourisme_commerciale,rue du Square-Gallery,rue des Bassins,canal de Lachine,entre rue des Bassins et canal de Lachine,,oui,a_generer,2026-10-17
+CDN-1,CDNNDG,residence_tourisme_commerciale,boulevard Décarie,rue de la Savane,chemin de la Côte-Saint-Luc,entre rue de la Savane et chemin de la Côte-Saint-Luc,des deux côtés,non mentionnée,a_generer,2026-10-17
+CDN-2,CDNNDG,residence_tourisme_commerciale,chemin Queen-Mary,avenue Victoria,avenue Clanranald,entre avenue Victoria et avenue Clanranald,,non mentionnée,intersections_osm,2026-10-17
+CDN-3,CDNNDG,residence_tourisme_commerciale,avenue Victoria,rue Plamondon,chemin de la Côte-Sainte-Catherine,entre rue Plamondon et chemin de la Côte-Sainte-Catherine,,non mentionnée,a_generer,2026-10-17
+CDN-4,CDNNDG,residence_tourisme_commerciale,avenue Van Horne,avenue Westbury,rue Lavoie,entre avenue Westbury et rue Lavoie,,non mentionnée,a_generer,2026-10-17
+CDN-5,CDNNDG,residence_tourisme_commerciale,chemin de la Côte-des-Neiges,rue Jean-Talon Ouest,chemin Queen-Mary,entre rue Jean-Talon Ouest et chemin Queen-Mary,des deux côtés,non mentionnée,a_generer,2026-10-17
+CDN-6,CDNNDG,residence_tourisme_commerciale,boulevard Décarie,boulevard Saint-Jacques,boulevard De Maisonneuve Ouest,entre boulevard Saint-Jacques et boulevard De Maisonneuve Ouest,,non mentionnée,intersections_osm,2026-10-17
+CDN-7,CDNNDG,residence_tourisme_commerciale,avenue Prud'homme,boulevard Saint-Jacques,boulevard De Maisonneuve Ouest,entre boulevard Saint-Jacques et boulevard De Maisonneuve Ouest,,non mentionnée,a_generer,2026-10-17
+CDN-8,CDNNDG,residence_tourisme_commerciale,boulevard De Maisonneuve Ouest,boulevard Décarie,rue Claremont,entre boulevard Décarie et rue Claremont,,non mentionnée,a_generer,2026-10-17
+VSMPE-1,VSMPE,residence_tourisme_commerciale,rue Saint-Hubert,,,limites non publiées,,non mentionnée,a_generer,2026-10-17
+VSMPE-2,VSMPE,residence_tourisme_commerciale,rue Jean-Talon Est,,,limites non publiées,,non mentionnée,a_generer,2026-10-17
+IBZ-1,IBZSGV,residence_tourisme_commerciale,rue Bord-du-Lac,,,"certains secteurs, limites non publiées",,non mentionnée,a_generer,2026-10-17
+IBZ-2,IBZSGV,residence_tourisme_commerciale,rue Monk,,,"certains secteurs, limites non publiées",,non mentionnée,a_generer,2026-10-17
+IBZ-3,IBZSGV,residence_tourisme_commerciale,Carré Grilli,,,"certains secteurs, limites non publiées",,non mentionnée,a_generer,2026-10-17
+RPP-G1,RPP,gite,rue Saint-Hubert,rue de Bellechasse,rue Jean-Talon Est,entre rue de Bellechasse et rue Jean-Talon Est,,non mentionnée,a_generer,2026-10-17
